@@ -383,6 +383,46 @@ Terminal
 | Memory Manager | Allocates RAM |
 | CPU Scheduler | Decides which process runs first |
 
+Interview questions and answers
+1. What is an operating system?
+
+An operating system (OS) is software that manages computer hardware and software resources. It acts as a bridge between the user, applications, and the hardware, allowing programs to run efficiently.
+
+2. Why is Linux preferred for servers?
+
+Linux is preferred for servers because it is stable, secure, reliable, and free. It can handle heavy workloads, has excellent performance, supports automation, and has a large community for support.
+
+3. What is the Linux kernel?
+
+The Linux kernel is the core part of the Linux operating system. It manages hardware resources such as CPU, memory, storage, and devices, and allows applications to communicate with the hardware.
+
+4. What is the difference between the kernel and the shell?
+Kernel: The core of the operating system that directly manages hardware and system resources.
+Shell: A command-line interface that accepts user commands and passes them to the kernel for execution.
+5. What is a system call?
+
+A system call is a mechanism that allows a user application to request services from the operating system kernel, such as reading a file, creating a process, or accessing hardware.
+
+6. What is user space?
+
+User space is the area where normal applications run. Programs in user space cannot directly access hardware or critical system resources.
+
+7. What is kernel space?
+
+Kernel space is the protected area where the operating system kernel runs. It has full access to hardware and system resources and performs critical tasks.
+
+8. What happens internally when you run ls?
+
+When you run ls, the shell starts the ls program. The program makes system calls to the kernel to read the contents of the current directory. The kernel retrieves the file information from the file system, returns it to the ls program, and ls displays the list on the terminal.
+
+9. Can a user-space application access hardware directly? Why or why not?
+
+No. User-space applications cannot access hardware directly because the operating system protects hardware and system resources. Applications must use system calls to request the kernel to perform hardware operations safely.
+
+10. What would happen if the Linux kernel crashed?
+
+If the Linux kernel crashes, the entire operating system stops working because the kernel manages all hardware and system resources. This usually results in a kernel panic, and the system must be restarted.
+
 ---
 
 # Author
