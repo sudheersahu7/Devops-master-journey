@@ -1,4 +1,4 @@
-Day 7 — Linux Networking Fundamentals
+Day 7 — Linux Networking Fundamentals 🌐
 Bilkul. Aaj main tumhe ratta nahi, balki networking ko visualize karke samjhaunga — jaise ek teacher whiteboard par concept build karta hai.
 
 Sabse pehle ek simple idea yaad rakho:
@@ -407,7 +407,8 @@ Gateway
     ↓
 Other Networks
 
-Real-life analogy
+Real-life analogy:
+
 Tum apni colony se bahar jaana chahte ho.
 
 Your House
@@ -487,7 +488,8 @@ Meaning:
 IP   = 10.0.1.20
 Port = 443
 
-Analogy
+Analogy:
+
 IP   = Building address
 Port = Building ke andar particular door/service
 
@@ -784,7 +786,8 @@ DNS
      ↓
 IP address
 
-Analogy
+Analogy:
+
 Tum phone mein:
 
 "Rahul"
@@ -1133,15 +1136,17 @@ Application
 
 Firewall/security rules still matter.
 
-40. Day 7 ka best practical experiment
+40. Day 7 ka best practical experiment 🔥
 Ab tumhara favourite lab.
 
-Terminal 1
+Terminal 1:
+
 python3 -m http.server 8080
 
 Python ek simple HTTP server start karega.
 
-Terminal 2
+Terminal 2:
+
 curl http://127.0.0.1:8080
 
 Ab tumne actually networking create kar di:
@@ -1488,7 +1493,7 @@ ss -lntp | grep 8080
 
 Is lab ke baad networking tumhe much more concrete lagegi.
 
-Final mental model
+🧠 Final mental model
 Bas isko apne dimaag mein visualize karo:
 
                     CLIENT
@@ -1545,8 +1550,3 @@ Aur agar problem aaye:
 Ye approach tumhe commands yaad karne se zyada valuable hai.
 
 Day 8 mein isi foundation ke upar hum OSI Model → TCP/IP Stack → packet actually machine ke andar kaise travel karta hai → ARP → DNS internally kaise resolve hota hai → TCP packet flow ko deep level par connect karenge.
-
-You can paste this directly into 01-Linux/day-7-networking-basics.md and commit it to your repository.
-
-
-
